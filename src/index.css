@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/share-techmono-2');
+@import url('https://fonts.cdnfonts.com/css/stella-nova');
+
+body {
+  margin: 0;
+}
+.title-main{
+  color: rgba(0,100,255,0.8);
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Stella Nova', sans-serif !important;
+  overflow: hidden;
+  border-right: .15em solid rgba(0,100,255,0.8);
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.navbar-block *{
+  padding: 10px;
+  font-family: 'Share-TechMono', sans-serif;
+}
+.navbar-block{
+  display:flex;
+  justify-content:space-between;
+}
+.link-block{
+  margin-left: auto;
+  margin-right: 0;
+}
+.link-block li{
+  display: inline;
+  font-size: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .navbar-block{
+    display: block;
+  }
+  .title-main{
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    border-right: .15em solid rgba(255,255,255,0.8);
+  }
+  .link-block{
+    padding-top: 0px;
+  }
+  .link-block ul{
+    text-align: center;
+  }
+  .link-block li{
+    font-size: 17px;
+  }
+  .footer-block p{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 18px;
+    color: #282c34;
+  }
+}
+.link-block a{
+  text-decoration: none !important;
+  color: black;
+  -webkit-transition: .5s all;
+  -webkit-transition-delay: 5s;
+  -moz-transition: .5s all;
+  -moz-transition-delay: 5s;
+  -ms-transition: .5s all;
+  -ms-transition-delay: 5s;
+  -o-transition: .5s all;
+  -o-transition-delay: 5s;
+  transition: .1s all;
+  transition-delay: 0.6ms;
+}
+.link-block a:hover{
+  color: rgba(0,100,255,0.8);
+  font-weight: bold;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0.7ms;
+}
+.link-block a:active{
+  color: rgba(30,90,155,0.8);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0.7ms;
+}
+.footer{
+  padding-top: 20px;
+}
+.footer-block p{
+  text-align: center;
+  font-family: Calibri;
+  font-size: 18px;
+  color: #282c34;
+}
+
+
+

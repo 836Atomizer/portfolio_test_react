@@ -1,0 +1,41 @@
+.main-about{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 900px) {
+    .main-about {
+        width: 100%;
+    }
+    .main-about h2,h3,p{
+        padding: 10px;
+    }
+    .main-about h2{
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+    .main-about h3{
+        font-size: 24px;
+    }
+    .main-about p{
+        font-size: 14px;
+    }
+    .social-networks{
+        text-align: center;
+        font-weight: bold;
+    }
+    .social-networks a{
+        margin: 4px;
+    }
+}
+.main-about .content-about{
+    text-align: justify;
+    font-family: "Arial";
+}
+.social-networks{
+    text-align: center;
+    font-weight: bold;
+}
+.social-networks a{
+    margin: 4px;
+}
